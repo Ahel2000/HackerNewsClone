@@ -1,0 +1,67 @@
+.hn-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+    color: #86ad87;
+}
+
+.hackernews-title {
+    color: #86ad87;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    margin: 5px;
+}
+
+.logo {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.rat-malware {
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+    border-radius: 100%;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+}
+
+.nav-item {
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 2px;
+    color: #86ad87;
+    border-radius: 10px;
+    border: 1px solid #86ad87;
+    text-decoration: none;
+
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    color: #348337;
+}
+
+.active {
+    background-color: #86ad87;
+    color: aliceblue;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+}

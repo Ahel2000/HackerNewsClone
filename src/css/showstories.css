@@ -1,0 +1,42 @@
+.stories-container-wrapper {
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.loading {
+    color: #86ad87;
+}
+
+.rat-malware {
+    animation: rotation 0.5s;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+.infinite {
+    animation-iteration-count: infinite;
+}
+
+.stories-container {
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.stories-container::-webkit-scrollbar {
+    display: none;
+}
