@@ -24,7 +24,6 @@ const AppRouter = () => {
           <Route
             path="/post/:id" element={<Post/>}
           />
-          <Route component={PageNotFound} />
         </Routes>
       </div>
     </BrowserRouter>
